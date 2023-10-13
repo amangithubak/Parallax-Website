@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: gray;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(226, 153, 64);
+}
+b{
+    color: rgb(117, 65, 65);
+}
+.pimg1 {
+  background-image: url(./image/background.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+    background-image: url(./image/background1.jpg);
+    min-height: 600px;
+}
+.pimg3 {
+    background-image: url(./image/background2.jpg);
+    min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBG{
+    background-color: rgb(87, 51, 51);
+    color: white;
+    padding: 20px;
+}
+.sec{
+    padding: 50px 80px;
+    text-align: center;
+}
+.sec-light{
+    background-color: white;
+    color: gray;
+}
+.sec-dark{
+    background-color: white;
+    color: gray;
+}
